@@ -135,7 +135,7 @@ int main(){
 
     //start a variable named addressOfa1, type is 8 byte unsigned long long int to match the pointer data type size, 
 
-    unsigned long long int addressOfa1 = ( unsigned long long int ) %a1;
+    unsigned long long int addressOfa1 = ( unsigned long long int ) &a1;
 
     // ( unsigned long long int ) is typecasting, convert the output of &a1 datatype to the unsigned long long int. 
 
