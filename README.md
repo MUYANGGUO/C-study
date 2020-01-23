@@ -121,3 +121,26 @@ can be seen as bounded within the scope of definition bracket `{}`. </br>
 ---
 ## Address of variables:
 E.g.  Use `&myVariable`, `&` ampersand, to give the memory location address of `myVaribale` variable.
+
+pointer type usually 8 bytes. 
+
+we can use **typeCasting** to convert pointer type to the datatype we want. 
+
+E.g. 
+```
+#include <stdio.h>
+int main(){
+//define and declare char type a1 variable. 
+char a1 = 'A';
+
+//start a variable named addressOfa1, type is 8 byte unsigned long long int to match the pointer data type size, 
+
+unsigned long long int addressOfa1 = ( unsigned long long int ) %a1;
+
+// ( unsigned long long int ) is typecasting, convert the output of &a1 datatype to the unsigned long long int. 
+
+printf("address of variable a1 = %I64X\n", addressOfa1);
+//%I64,means integer 64 bits, X means hexagon. 
+
+}
+```
