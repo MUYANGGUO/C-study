@@ -145,3 +145,13 @@ int main(){
     return 0;
 }
 ```
+## Storage Classes
+
+### storage classes in c :
+- static : restrict the visibility of the variable/functions only within the scope. (protect) 
+- extern : extend the visibility to other files/scope. 
+
+### ANCII codes
+The American National Standards Institute (ANSI), which developed ANSI C, also developed the ASCII codes. 
+ASCII stands for "American Standard Code for Information Interchange'. </br>
+Encode 128 different characters. Refer to the ASCII table. 
