@@ -82,3 +82,10 @@ It is an integer data type to store a single character (ASCII code) value or 1 b
 
 
 ### floating data types: real number
+[Table](https://www.tutorialspoint.com/cprogramming/c_data_types.htm)
+
+
+---
+
+### sizeof operator
+**sizeof** operator of C is used to find out the size of a variable. The output of the sizeof operator maybe different on different machines because it is complier dependent. 
