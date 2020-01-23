@@ -109,9 +109,11 @@ int main()
 ---
 ## Variables 
 
--local variable: </br>
+- local variable: </br>
 'Local variable' exists (memory claimed) for the time the function is executed. Once the function exits , local variable die.(memory reclaimed). They do not sit permanently on the data memory. </br>
-can be seen as bounded within the scope of definition bracket `{}`. 
+can be seen as bounded within the scope of definition bracket `{}`. </br>
+***uninitialized local variable default value :*** unpredictable, can be some random values. dangerous! so make sure you need to declare it. </br>
 
--global variable: </br>
-'Global variable' exists on the memory permenantly. 
+- global variable: </br>
+'Global variable' exists on the memory permenantly. </br>
+***uninitialized global variable default value :*** 0. </br>
