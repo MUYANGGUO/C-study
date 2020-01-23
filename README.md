@@ -130,17 +130,18 @@ E.g.
 ```
 #include <stdio.h>
 int main(){
-//define and declare char type a1 variable. 
-char a1 = 'A';
+    //define and declare char type a1 variable. 
+    char a1 = 'A';
 
-//start a variable named addressOfa1, type is 8 byte unsigned long long int to match the pointer data type size, 
+    //start a variable named addressOfa1, type is 8 byte unsigned long long int to match the pointer data type size, 
 
-unsigned long long int addressOfa1 = ( unsigned long long int ) %a1;
+    unsigned long long int addressOfa1 = ( unsigned long long int ) %a1;
 
-// ( unsigned long long int ) is typecasting, convert the output of &a1 datatype to the unsigned long long int. 
+    // ( unsigned long long int ) is typecasting, convert the output of &a1 datatype to the unsigned long long int. 
 
-printf("address of variable a1 = %I64X\n", addressOfa1);
-//%I64,means integer 64 bits, X means hexagon. 
+    printf("address of variable a1 = %I64X\n", addressOfa1);
+    //%I64,means integer 64 bits, X means hexagon. 
 
+    return 0;
 }
 ```
