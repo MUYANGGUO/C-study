@@ -89,3 +89,20 @@ It is an integer data type to store a single character (ASCII code) value or 1 b
 
 ### sizeof operator
 **sizeof** operator of C is used to find out the size of a variable. The output of the sizeof operator maybe different on different machines because it is complier dependent. 
+
+```
+#include <stdio.h>
+
+int main()
+{
+    //sizeof() operator called as keyword, operand can be variable name or data type
+    printf("Size of char data tyope = %d\n", sizeof(char));
+    printf("Size of char data tyope = %d\n", sizeof(short));
+    printf("Size of char data tyope = %d\n", sizeof(int));
+    printf("Size of char data tyope = %d\n", sizeof(long));
+    printf("Size of char data tyope = %d\n", sizeof(long long));
+
+    return 0;
+}
+
+```
