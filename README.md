@@ -113,3 +113,5 @@ int main()
 'Local variable' exists (memory claimed) for the time the function is executed. Once the function exits , local variable die.(memory reclaimed). They do not sit permanently on the data memory. </br>
 can be seen as bounded within the scope of definition bracket `{}`. 
 
+-global variable: </br>
+'Global variable' exists on the memory permenantly. 
