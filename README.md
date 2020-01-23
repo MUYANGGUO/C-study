@@ -1,5 +1,8 @@
 # C-study
 Study C for embeded systems coding
+## Include Headers
+
+<> for standard libraries, "" for user defined. 
 
 ## Complier and temps files. 
 
