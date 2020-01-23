@@ -1,0 +1,76 @@
+!SESSION 2020-01-23 14:30:53.948 -----------------------------------------------
+eclipse.buildId=Version 1.1.0
+java.version=1.8.0_202
+java.vendor=AdoptOpenJdk
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/muyangguo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -data /Users/muyangguo/Desktop/C-study/Instructor/target -keyring /Users/muyangguo/.eclipse_keyring
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-01-23 14:30:58.459
+!MESSAGE Log4j initialized with config file /Users/muyangguo/Desktop/C-study/Instructor/target/.metadata/.log4j.xml
+
+!ENTRY org.eclipse.core.net 1 0 2020-01-23 14:30:59.096
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-01-23 14:31:00.298
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-01-23 14:31:00.599
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2020-01-23 14:32:38.850
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2020-01-23 14:32:38.851
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2020-01-23 14:32:38.863
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2020-01-23 14:32:38.864
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2020-01-23 14:32:38.864
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2020-01-23 14:32:38.864
+!MESSAGE Falling back to default toolchain
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 4 4 2020-01-23 14:32:38.865
+!MESSAGE Type or version is empty: ; 
+
+!ENTRY com.st.stm32cube.ide.mcu.toolchain 2 2 2020-01-23 14:32:38.865
+!MESSAGE Falling back to default toolchain
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 14:32:42.249
+!MESSAGE Indexed '001HelloWorld' (3 sources, 51 headers) in 1.7 sec: 2,044 declarations; 2,686 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 14:32:42.452
+!MESSAGE Indexed '010led_toggle_bitfields' (3 sources, 53 headers) in 0.2 sec: 2,000 declarations; 2,795 references; 0 unresolved inclusions; 1 syntax errors; 1 unresolved names (0.021%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 14:32:42.636
+!MESSAGE Indexed '005led_toggle' (3 sources, 52 headers) in 0.18 sec: 1,936 declarations; 2,732 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 14:32:42.787
+!MESSAGE Indexed '003Add' (3 sources, 51 headers) in 0.149 sec: 2,047 declarations; 2,772 references; 0 unresolved inclusions; 3 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 14:32:42.933
+!MESSAGE Indexed '006pin_read' (3 sources, 55 headers) in 0.143 sec: 1,977 declarations; 2,780 references; 0 unresolved inclusions; 2 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 14:32:43.080
+!MESSAGE Indexed '011keypad' (3 sources, 54 headers) in 0.145 sec: 2,081 declarations; 2,962 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.04%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 14:32:43.208
+!MESSAGE Indexed '009packed_Vsnonpacked' (3 sources, 51 headers) in 0.125 sec: 2,048 declarations; 2,701 references; 0 unresolved inclusions; 3 syntax errors; 4 unresolved names (0.084%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 14:32:43.336
+!MESSAGE Indexed '007volatile' (3 sources, 52 headers) in 0.126 sec: 1,931 declarations; 2,798 references; 0 unresolved inclusions; 6 syntax errors; 1 unresolved names (0.021%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 14:32:43.488
+!MESSAGE Indexed '002Sizeof' (3 sources, 51 headers) in 0.15 sec: 2,044 declarations; 2,695 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 14:32:43.506
+!MESSAGE Indexed '004led_on' (3 sources, 1 headers) in 0.015 sec: 70 declarations; 47 references; 11 unresolved inclusions; 0 syntax errors; 20 unresolved names (15%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-23 14:32:43.672
+!MESSAGE Indexed '008button_ISR' (3 sources, 54 headers) in 0.164 sec: 2,088 declarations; 2,913 references; 0 unresolved inclusions; 2 syntax errors; 1 unresolved names (0.02%)
