@@ -16,7 +16,8 @@ main.s -->complier-->main.o, assembly level mnemonics are converted into opcodes
 E.g. `\n` for prinf(); is moving the cursor to next line, `\"` is double quote, apply `\` before the escape sequence can counter the effect of the escape. 
 
 ## Format specifier
-%d: integer, %f: float, %c: character, %s: string, %u:  unsigned integer, %ld: long integer
+%d: integer, %f: float, %c: character, %s: string, %u:  unsigned integer, %ld: long integer </br>
+%p: a memory address
 
 ## Data types in C
 
