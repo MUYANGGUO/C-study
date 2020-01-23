@@ -17,7 +17,7 @@ E.g. `\n` for prinf(); is moving the cursor to next line, `\"` is double quote, 
 
 ## Format specifier
 %d: integer, %f: float, %c: character, %s: string, %u:  unsigned integer, %ld: long integer </br>
-%p: a memory address
+%p: pointer, a memory address `printf("variable is stored in %p\n", &myVariable);`
 
 ## Data types in C
 
