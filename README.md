@@ -117,3 +117,6 @@ can be seen as bounded within the scope of definition bracket `{}`. </br>
 - global variable: </br>
 'Global variable' exists on the memory permenantly. </br>
 ***uninitialized global variable default value :*** 0. </br>
+---
+## Address of variables:
+E.g.  Use `&myVariable`, `&` ampersand, to give the memory location address of `myVaribale` variable.
