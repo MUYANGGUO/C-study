@@ -207,4 +207,4 @@ A statement like this in the main function is an implementatiion of an infinite 
 MCU is a small computer system on a single chip, but its resources and capalibilities such as memory, speed, external interfaces are very much limited than of a desktop computer, because of MCU targets embeded applications.</br>
 
 A typical microcontroller includes a processor, volatile and non-volatile memories, inpuit/output(I/O) pins, peripherals, clock, bus interfaces on a single chip.
-
+![Anatomy of a Typical Small Microcontroller](/README_IMAGES/p1.png)
