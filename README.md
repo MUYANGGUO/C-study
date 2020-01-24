@@ -235,5 +235,6 @@ LMA: load memory address (source in FLASH)
 
 VMA: virtual memory address (destination in SRAM)
 
-By examining, we can observe that when loading the program, the source and destination address have been assigned, who did this?
+By examining, we can observe that when loading the program, the source and destination address have been assigned, who did this? **the start up code**
+
 ![Reset of Processor](/README_IMAGES/p2.png)
