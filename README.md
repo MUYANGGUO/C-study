@@ -208,3 +208,19 @@ MCU is a small computer system on a single chip, but its resources and capalibil
 
 A typical microcontroller includes a processor, volatile and non-volatile memories, inpuit/output(I/O) pins, peripherals, clock, bus interfaces on a single chip.
 ![Anatomy of a Typical Small Microcontroller](/README_IMAGES/p1.png)
+
+CPU execute instructions, the instructions are from the program memory, usually non-volatile. It means once stored the programs into the program memory, cant erase it, or write programs, even plugged out the power, the program memory will not be corrupted. </br>
+
+How fast the cpu can decode the instructions depends on the clock speed. </br>
+
+Data memory: volatile, and it is used to store data of the program and also used as a scratchpad. Usually it is consumed during the run-time of the program.
+
+Code Memory (program memory) :
+
+The purpose of the code memory is to store instructions and constant data of the program, there are different types of code memory: </br>
+- ROM (read only memory)
+    - MPROM (mask programmable read only memory)
+    - EPROM (ultraviolet erasable programmable ROM)
+    - EEPROM (electrially erasable programmable ROM)
+- OTP (on time programmable)
+- Flash
