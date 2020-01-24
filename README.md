@@ -159,3 +159,26 @@ The American National Standards Institute (ANSI), which developed ANSI C, also d
 ASCII stands for "American Standard Code for Information Interchange'. </br>
 Encode 128 different characters. Refer to the ASCII table. (0-127)
 
+
+## Typecasting:
+Typecasting is a way of converting a variable or data from one data type to another data type. 
+
+**Data will be truncated when higher data type is converted into lower. **
+
+- Implicit casting (Complier does this, assume casting)
+
+- Explicit casting (Overwrite what complier does, programmer does this)
+
+Warning may cause trouble, because they maybe related to implicit casting... which actually truncated information. 
+
+
+---
+---
+
+## Embedded Microcontroller:
+For coding, all microcontroller needs to have a start file. (given in the STM32CubeIDE tho, may need to write yourself)
+
+Using printf outpus on ARM Cortex M3/M4/M7 or higher based MCUs. printf works over SWO pin (Serial Wire Output of SWD interface)
+
+[processor] ---SWO pin --- [debug module]
+
