@@ -182,3 +182,15 @@ Using printf outpus on ARM Cortex M3/M4/M7 or higher based MCUs. printf works ov
 
 [processor] ---SWO pin --- [debug module]
 
+### SWD
+SWD(Serial Wire Debug) is a two-wire protocol for accessing the ARM debug interface. It is part of the ARM Debug interface Specification v5 and is an alternative to JTAG.
+
+The physical layer of SWD consists of two lines:
+
+- SWDIO: a bidirectional data line
+- SWCLK: a clock driven by the host
+
+By using SWD interface, should be able to program MCUs internal flash, you can access memory regions, add breakpoints, stop/run CPU. 
+
+The other good thing about SWD is you can use the serial wire viewer for your printf statements for debugging. 
+ 
