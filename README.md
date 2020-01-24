@@ -194,3 +194,17 @@ By using SWD interface, should be able to program MCUs internal flash, you can a
 
 The other good thing about SWD is you can use the serial wire viewer for your printf statements for debugging. 
  
+## Embeded system notes:
+
+An embeded application never ends </br> If the application has got nothing to do, it will put the processor to sleep or executes the infinite loop. 
+```
+for(;;);
+```
+A statement like this in the main function is an implementatiion of an infinite loop that does nothing but keeps the processor  busy. 
+
+### What is Microcontroller?
+
+MCU is a small computer system on a single chip, but its resources and capalibilities such as memory, speed, external interfaces are very much limited than of a desktop computer, because of MCU targets embeded applications.</br>
+
+A typical microcontroller includes a processor, volatile and non-volatile memories, inpuit/output(I/O) pins, peripherals, clock, bus interfaces on a single chip.
+
