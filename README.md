@@ -225,3 +225,15 @@ The purpose of the code memory is to store instructions and constant data of the
 - OTP (on time programmable)
 - Flash (erasable, easy to use, dominant in most MCUs)
 - FRAM (Ferroelectric Random Access Memory, costly but fast)
+
+### Question
+**when doing embeded, downloaded the program to the code memory (non-volatile, flash), the initial data is with the program and stored there, how the data be used or later in data memory (volatile, SRAM as e.g.)?**
+
+To analyze this, we should analyze the ELF file, using the GNU tools, or check the .list file for `.data` </br>
+
+LMA: load memory address (source in FLASH)
+
+VMA: virtual memory address (destination in SRAM)
+
+By examining, we can observe that when loading the program, the source and destination address have been assigned, who did this?
+![Reset of Processor](/README_IMAGES/p2.png)
