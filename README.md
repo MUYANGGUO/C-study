@@ -223,4 +223,5 @@ The purpose of the code memory is to store instructions and constant data of the
     - EPROM (ultraviolet erasable programmable ROM)
     - EEPROM (electrially erasable programmable ROM)
 - OTP (on time programmable)
-- Flash
+- Flash (erasable, easy to use, dominant in most MCUs)
+- FRAM (Ferroelectric Random Access Memory, costly but fast)
